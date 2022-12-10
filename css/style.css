@@ -1,0 +1,32 @@
+#container,
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  margin: 5rem 0.5rem 0;
+  /* margin-top: 10rem; */
+  font-size: 5rem;
+  color: hsl(271, 78%, 45%);
+}
+
+#buttonContainer {
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin-left: 5rem;
+  padding: 3%;
+  border-radius: 15%;
+  border: black solid 2px;
+  width: 12%;
+}
+
+button:hover {
+  background-color: hsl(271, 71%, 62%);
+  transform: translateY(4px);
+  box-shadow: 0 5px #666;
+}
